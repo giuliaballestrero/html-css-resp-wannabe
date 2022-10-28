@@ -152,9 +152,14 @@ img {
         width: 100%;
     }
 
-    
+
     section.why-us {
         background-color: #222222;
+        margin-bottom: 0;
+    }
+
+    .steps {
+        margin: 0;
     }
 
   }
