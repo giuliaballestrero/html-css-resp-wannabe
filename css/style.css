@@ -134,3 +134,24 @@ img {
     }
   }
 
+  @media screen and (max-width: 480px) {
+
+    div.container {
+        padding: 0 5px;
+    }
+
+    div.row {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    section.why-us {
+        background-color: #222222;
+    }
+
+  }
